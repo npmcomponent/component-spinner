@@ -3,10 +3,10 @@
  * Module dependencies.
  */
 
-var autoscale = require('autoscale-canvas');
-var raf = require('raf');
-var text = require('text');
-var supported = require('canvas');
+var autoscale = require('component-autoscale-canvas');
+var raf = require('component-raf');
+var text = require('matthewp-text');
+var supported = require('component-has-canvas');
 
 /**
  * Expose `Spinner`.

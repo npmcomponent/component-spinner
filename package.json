@@ -1,5 +1,5 @@
 {
-  "name": "spinner-component2",
+  "name": "component-spinner",
   "description": "Flexible spinner using Canvas",
   "version": "1.0.0",
   "keywords": [
@@ -8,16 +8,10 @@
     "ui"
   ],
   "dependencies": {
-    "autoscale-canvas": "*",
-    "raf-component": "*"
+    "component-autoscale-canvas": "git://github.com/npmcomponent/component-autoscale-canvas.git",
+    "component-raf": "git://github.com/npmcomponent/component-raf.git",
+    "component-has-canvas": "git://github.com/npmcomponent/component-has-canvas.git",
+    "matthewp-text": "git://github.com/npmcomponent/matthewp-text.git"
   },
-  "component": {
-    "scripts": {
-      "spinner/index.js": "index.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/spinner.git"
-  }
+  "license": "MIT"
 }
